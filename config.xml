@@ -142,7 +142,6 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" />
     <gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="cordova-plugin-device" source="npm" />
-    <gap:plugin name="cordova-plugin-globalization" source="npm" />
     <gap:plugin name="cordova-plugin-file" source="npm" />
     <gap:plugin name="cordova-plugin-file-opener2" source="npm" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
@@ -154,7 +153,6 @@
     <gap:plugin name="cordova-plugin-screen-orientation" source="npm" />
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <gap:plugin name="cordova-plugin-statusbar" source="npm" />
-    <gap:plugin name="cordova-plugin-wkwebview-engine" source="npm" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
     <gap:plugin name="cordova-sqlite-storage" source="git" version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild" />
@@ -163,13 +161,7 @@
         <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
         <variable name="FCM_VERSION" value="17.5.+" />
     </gap:plugin>
-
-
-	<feature name="CDVWKWebViewEngine">
-		<param name="ios-package" value="CDVWKWebViewEngine" />
-	</feature>
-
-	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+	
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:launchMode='singleTop']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false"></activity>
     </edit-config>
