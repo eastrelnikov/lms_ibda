@@ -164,6 +164,12 @@
         <variable name="FCM_VERSION" value="17.5.+" />
     </gap:plugin>
 
+
+	<feature name="CDVWKWebViewEngine">
+		<param name="ios-package" value="CDVWKWebViewEngine" />
+	</feature>
+
+	<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:launchMode='singleTop']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false"></activity>
     </edit-config>
