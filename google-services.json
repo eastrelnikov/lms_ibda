@@ -8,7 +8,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:852915674724:android:c7564a5123fe2dfd848971",
+        "mobilesdk_app_id": "1:852915674724:android:a2d1235975f668e5848971",
         "android_client_info": {
           "package_name": "com.moodle.ibda"
         }
@@ -30,6 +30,13 @@
             {
               "client_id": "852915674724-hurk78lmicmcoscus12k0km8ftf0scss.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "852915674724-kvo98e8rjhrpilve08ripng72vva92j7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.moodle.ibda"
+              }
             }
           ]
         }
