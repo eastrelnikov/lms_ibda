@@ -3,9 +3,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodle.ibda"
-        versionCode = "37100"
-        android-versionCode="37100"
-        version   = "3.7.1">
+        versionCode = "37200"
+        android-versionCode="37200"
+        version   = "3.7.2">
     <name>LMS IBDA</name>
 
     <description>
@@ -17,7 +17,7 @@
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.7.1</string>
+        <string>3.7.2</string>
     </edit-config>
 
     <gap:platform name="ios" />
@@ -98,8 +98,7 @@
         <resource-file src="resources/android/icon/drawable-xhdpi-smallicon.png" target="app/src/main/res/mipmap-xhdpi/smallicon.png" />
     </platform>
 
-    <platform name="ios">
-        <resource-file src="GoogleService-Info.plist" />
+    <platform name="ios">        
         <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
         <icon src="resources/ios/icon/icon@2x.png" width="114" height="114"/>
         <icon src="resources/ios/icon/icon-40.png" width="40" height="40"/>
